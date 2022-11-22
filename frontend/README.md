@@ -1,20 +1,29 @@
-# Nuxt 3 Minimal Starter
-
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
 ## Setup
 
-Make sure to install the dependencies:
+#### Install node.js
+Install node.js version 18.12.1 or if you have nvm installed, run the below command.
 
 ```bash
-# yarn
-yarn install
+nvm use
+```
 
-# npm
-npm install
+#### Install pnpm
+pnpm is the package manager used for this project. Install it globally using the below command.
 
-# pnpm
+```bash
+npm install -g pnpm
+```
+
+#### Install the dependencies using pnpm:
+
+```bash
 pnpm install --shamefully-hoist
+```
+
+#### Copy .env.example to .env:
+
+```bash
+cp .env.example .env
 ```
 
 ## Development Server
@@ -22,21 +31,19 @@ pnpm install --shamefully-hoist
 Start the development server on http://localhost:3000
 
 ```bash
-npm run dev
+pnpm run dev
 ```
 
 ## Production
 
-Build the application for production:
+To build the application for production:
 
 ```bash
-npm run build
+pnpm run build
 ```
 
 Locally preview production build:
 
 ```bash
-npm run preview
+pnpm run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
