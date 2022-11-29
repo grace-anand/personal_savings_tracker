@@ -5,6 +5,10 @@ specifiers:
   nuxt: 3.0.0
   postcss: ^8.4.19
   tailwindcss: ^3.2.4
+  zod: ^3.19.1
+
+dependencies:
+  zod: 3.19.1
 
 devDependencies:
   autoprefixer: 10.4.13_postcss@8.4.19
@@ -4767,3 +4771,7 @@ packages:
       compress-commons: 4.1.1
       readable-stream: 3.6.0
     dev: true
+
+  /zod/3.19.1:
+    resolution: {integrity: sha512-LYjZsEDhCdYET9ikFu6dVPGp2YH9DegXjdJToSzD9rO6fy4qiRYFoyEYwps88OseJlPyl2NOe2iJuhEhL7IpEA==}
+    dev: false
