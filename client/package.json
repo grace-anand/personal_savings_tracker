@@ -15,7 +15,10 @@
   },
   "dependencies": {
     "@vee-validate/zod": "^4.7.3",
+    "primeicons": "^6.0.1",
+    "primevue": "^3",
     "vee-validate": "^4.7.3",
+    "vue": "^3.2.45",
     "zod": "^3.19.1"
   }
 }
